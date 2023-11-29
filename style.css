@@ -1,0 +1,223 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.icon {
+  font-size: 25px;
+  margin-right: 18px;
+  display: flex;
+  gap: 18px;
+  margin-top: 28px;
+}
+.nav-bar {
+  top: 0px;
+  overflow: auto;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  letter-spacing: 1px;
+}
+.nav-bar,
+.topright,
+.topleft {
+  top: 0px;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+}
+.link {
+  font-size: 22px;
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+  gap: 1px;
+  color: #855615;
+}
+
+.name {
+  color: #816234;
+  text-align: center;
+  margin-top: 12px;
+  margin-left: 90px;
+  flex: 1 2;
+  font-family: "Cormorant Upright", serif;
+  font-size: 40px;
+}
+.topleft a {
+  margin-left: 3px;
+  float: left;
+}
+.topright a {
+  margin-right: 3px;
+  float: right;
+}
+.home img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.home button {
+  padding: 12px 45px;
+  position: absolute;
+  top: 71%;
+  left: 6%;
+  border: none;
+  border-radius: 12px;
+  background-color: #855615d7;
+
+  font-size: 25px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.home p {
+  color: #c99951;
+  padding: 15px 50px;
+  position: absolute;
+  top: 55%;
+  left: 2%;
+  font-size: 40px;
+  font-family: "Lora", serif;
+}
+.collection {
+  margin-top: -40px;
+  background-color: #e4e6f5;
+}
+
+.collection button,
+.BestSeller button,
+.ex button {
+  display: flex;
+  right: 5%;
+  padding: 8px 25px;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border: none;
+  border-radius: 12px;
+  background-color: #855615d7;
+  font-size: 20px;
+}
+.collection p,
+.BestSeller p,
+.ex p,
+.aboutUs h1 {
+  color: #8d7d21;
+  padding-top: 25px;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.watches img {
+  display: inline-flex;
+  transition: transform 0.3s;
+  border-radius: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
+  height: 250px;
+  width: 180px;
+  padding: 20px;
+  gap: 60px;
+}
+.watches img:hover {
+  transform: scale(1.2);
+}
+.colo {
+  background-color: #e4e6f5;
+}
+
+.aboutUs p {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+.watch img {
+  border-radius: 80px;
+  display: inline-block;
+  margin-left: 630px;
+  height: 200px;
+  width: auto;
+  padding: 20px;
+  gap: 60px;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex: 1 1;
+  gap: 20px 30px;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.upper p {
+  font-size: 25px;
+  text-align: center;
+}
+.upper li {
+  font-size: 20px;
+  padding: 3px;
+}
+.footer i {
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: blue;
+}
+
+.footer2 {
+  display: flex;
+  font-size: 15px;
+  gap: 55px;
+  margin-left: 100px;
+}
+.cr {
+  gap: -5px;
+  margin-left: 100px;
+  float: right;
+}
+
+.login {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  font-family: "Mooli", sans-serif;
+  color: #9c6519d7;
+}
+.login input {
+  text-align: left;
+  width: 50px;
+  position: relative;
+  background: transparent;
+  margin-bottom: 8px;
+  border: 0;
+  width: 20%;
+  outline: 0;
+  padding: 10px;
+  background-color: #c6c7d8;
+
+  border-radius: 5px;
+}
+.forgot {
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.login button {
+  font-size: 18px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #c6c7d8;
+  padding: 8px 34px;
+  color: rgb(17, 16, 16);
+}
